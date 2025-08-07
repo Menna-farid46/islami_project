@@ -6,7 +6,7 @@
              the Flutter engine draws its first frame -->
         <item name="android:windowBackground">@drawable/splash_screen</item>
         <item name="android:windowSplashScreenBackground">#202020</item>
-        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splashicon2</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_icon3</item>
         <item name="android:windowSplashScreenBrandingImage">@drawable/branding</item>
     </style>
     <!-- Theme applied to the Android Window as soon as the process has started.

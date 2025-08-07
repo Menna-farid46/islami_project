@@ -5,5 +5,9 @@ abstract final class StringManager{
   static const String time="Time";
   static const String radio="Radio";
   static const String hadith="Hadith";
+  static const String suraname="Sura Name";
+  static const String suralist="Suras List";
+
+
 
 }
