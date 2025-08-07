@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:isalmi_project/ui/hadith_details/screen/hadith_details_screen.dart';
 import 'package:isalmi_project/ui/home/screen/homesreen.dart';
 
 void main() {
@@ -22,7 +23,8 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute:Homescreen.routeNames,
       routes: {
-        Homescreen.routeNames:(context)=>Homescreen()
+        Homescreen.routeNames:(context)=>Homescreen(),
+        HadithDetailsScreen.routeNames:(_)=>HadithDetailsScreen()
       },
 
     );
